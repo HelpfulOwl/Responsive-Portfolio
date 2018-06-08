@@ -1,0 +1,91 @@
+.background{
+    background-image: url("images/InkForestWaterfall.jpg");
+    background-size: 100%;
+}
+
+#name{
+    background-color: teal;
+    text-align: center;
+    height: 58px;
+
+}
+
+#col-name{
+    height: 58px;
+    float: left;
+    padding-left: 0;
+    width: 240px;
+}
+
+#bio-container{
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: ivory;
+    padding: 5px;
+
+}
+
+#bio-img{
+    float:left;
+    border: 10px solid ivory;
+}
+
+p{
+    border: 5px;
+}
+ label{
+     color:rgb(109, 156, 218);
+ }
+
+#row1{
+    width: 960px;
+    background-color: grey;
+    margin: 0 auto;
+
+}
+
+nav{
+    float: right;
+}
+
+a{
+    color: #7FDBFF;
+}
+
+.form-group{
+    width:960px;
+    margin: 0 auto;
+}
+ 
+#buttons{
+    position: relative;
+    left: 75px;
+}
+
+footer{
+    background-color: darkgray;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 248px;
+    position: sticky;
+}
+
+@media only screen and (max-width:690px){ 
+    .background{
+        background-image: none;
+        background-color: rgb(158, 134, 134);
+    }
+
+    #name{
+        background-color: teal;
+        text-align: center;
+        height: 98px;
+    }
+
+    #row1{
+            width: 528px;
+            background-color: grey;
+            margin: 0 auto;
+    }
+}
